@@ -23,19 +23,21 @@ body {
 }
 .pieces:hover {
     color:darkcyan;
+    outline: solid 2px black;
+    background-image: linear-gradient(black, black);
 }
 .column {
     display: inline;
     color: rgb(110, 91, 91);
 }
 #choice-button0:hover{
-    outline: solid 4px red;
+    outline: solid 4px darkred;
     animation: popUp 1.4 ease-in-out;
     height: 80%;
     width: 40vw;
 }
 #choice-button1:hover{
-    outline: solid 4px blue;
+    outline: solid 6.13px darkblue;
     animation: popUp 1.4 ease-in-out;
     height: 80%;
     width: 40vw;
